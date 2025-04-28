@@ -21,14 +21,3 @@ export const normalizeData = (unnormalizedData: Post[]): NormalizedData => {
 
 	return newObject
 }
-
-/**
- * {
- *    byId: {
- *      62e69d5a5458aac0ed320b35: { id: '...', title: '...', body: '...' },
- *      62e69d5a5458aac0ed320b1c: { id: '...', title: '...', body: '...' },
- *      ...
- *    },
- *    allIds: ['62e69d5a5458aac0ed320b35', '62e69d5a5458aac0ed320b1c', ...]
- * }
- */
